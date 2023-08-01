@@ -1,0 +1,41 @@
+
+#destacada {
+    background-color: rgb(203, 201, 219);
+    border: 1px solid black;
+  }
+
+
+footer .logo img {
+    width: 25%;
+    height: 25%;        
+	text-align:center;	
+    }
+
+h3.logo-footer{
+    margin-top: 1px;
+    color: #fff;
+}
+
+.footer-centrado {
+    background-color: #0355a7;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+    padding: 45px;    
+    margin-top: 50px;
+}
+
+.footer-centrado .footer-company-motto {
+    color: #f4f808;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.footer-centrado .footer-derechos {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
