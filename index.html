@@ -11,22 +11,23 @@
   <div class="container">
     <div class="mb-3">
       <label for="selectPais" class="form-label">Selecciona un país:</label>
-      <!-- Agrego el select con los paises que contiene las ciudades (proximas entregas deberia ser dinamico)-->
+      <!-- Agrego el select con los paises que contiene la clase-->
       <select id="selectPais" class="form-select">
       <!-- Las opciones de los paises las lleno de forma dinamica desde JS-->
       </select>
     </div>
 
     <div class="mb-3">
-      <label for="inputCiu" class="form-label">Ingresa el nombre de una ciudad:</label>
-      <input type="text" id="inputCiu" class="form-control">
-    </div>
-    <!-- En onclick() agrega la funcion de buscqueda de ciudad y "traigo" la info del clima desde la sub funcion mostrarInfoClima-->
-    <button type="button" onclick="buscaciudad()" class="btn btn-primary">Buscar Ciudad</button>
+      <label for="selectCiudad" class="form-label">Selecciona una ciudad:</label>
+      <select id="selectCiudad" class="form-select">
+      <!-- Las opciones de las ciudades se llenan dinámicamente desde JS -->
+      </select>
+    </div> 
+    
 
     <div id="infoClima" class="mt-3"></div>
   </div> 
 
-  <script src="js/index.js"></script>  
+  <script src="js/index.js"></script>
 </body>
 </html>
