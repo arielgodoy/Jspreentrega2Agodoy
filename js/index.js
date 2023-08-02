@@ -88,4 +88,6 @@ document.addEventListener("DOMContentLoaded", function() {
       infoClimaDiv.innerHTML = "<h3>No se encontró información para la ciudad ingresada.</h3>";
     }
   }
+
+  
 });
